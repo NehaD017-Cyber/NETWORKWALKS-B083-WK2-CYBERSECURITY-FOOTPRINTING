@@ -61,33 +61,74 @@ Step 6: Run 'dnsrecon' to enumerate all DNS records.
 ```bash
   whois <domain>
 ```
+
+The whois command is an open-source network administration tool used to query database records for domain names and IP addresses. It helps you gather detailed background intelligence (footprinting) about a target website or server.
+
 <img width="1910" height="940" alt="whois networkwalks com" src="https://github.com/user-attachments/assets/466c382e-a7e4-4794-b049-d8d7cef526e4" />
 
+### Step 2: 
+
+* Open the Kali Linux terminal and run the following command:
+
+```bash
+whatweb <domain>
+```
+
+The whatweb command is a web scanner used in footprinting to identify the technologies running on a website (such as CMS platform, web server type, IP address, embedded scripts, and HTTP status codes).
+
+
+
+### Step 3: 
+
+* Open the Kali Linux terminal and run the following command: 
+
+```bash
+nslookup <domain>
+```
+
+The nslookup (Name Server Lookup) command is a network administration tool used for querying Domain Name System (DNS) servers to find IP addresses associated with a domain name, or vice versa.
+
+
+
+### Step 4:
+
+* Open the Kali Linux terminal and run the following command:
+
+  ```bash
+  curl -I https:/<domain>
+  ```
+
+  The command curl -I (or curl --head) is used in cybersecurity footprinting and web debugging to fetch only the HTTP response headers from a target web server, without downloading the entire website page body (HTML, CSS, images).
+
+
+
+### Step 5:
+
+* Open the Kali Linux and run the following command:
+
+```bash
+wakw00f <domain>
+```
+
+The command wafw00f (often pronounced/written as "WAF00F") is an open-source command-line tool used in cybersecurity footprinting and reconnaissance to identify and fingerprint Web Application Firewalls (WAFs) protecting a website.
 
 
 
 
+### Step 6: 
+
+* Open the Kali Linux and run the following command:
+
+  ```bash
+  dnsrecon <domain>
+  ```
+  
+The command dnsrecon is a powerful Python-based DNS enumeration tool used during the reconnaissance and footprinting phase of a penetration test. It helps discover subdomains, zone transfers, DNS records, and hidden network infrastructure associated with a target domain.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 

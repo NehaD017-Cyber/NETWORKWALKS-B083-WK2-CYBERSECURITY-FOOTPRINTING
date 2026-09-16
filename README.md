@@ -59,7 +59,7 @@ Step 6: Run 'dnsrecon' to enumerate all DNS records.
 * Open the Kali Linux terminal and run the following command:
   
 ```bash
-  (whois <domain>)
+  whois <domain>
 ```
 <img width="1910" height="940" alt="whois networkwalks com" src="https://github.com/user-attachments/assets/466c382e-a7e4-4794-b049-d8d7cef526e4" />
 

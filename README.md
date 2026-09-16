@@ -16,7 +16,6 @@ Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing
 ![whois](https://img.shields.io/badge/Tool-whois-7B1FA2?style=for-the-badge)
 ![WhatWeb](https://img.shields.io/badge/Tool-WhatWeb-E91E63?style=for-the-badge)
 ![wafw00f](https://img.shields.io/badge/Tool-wafw00f-009688?style=for-the-badge)
-<!-- Commands & Reconstitution -->
 ![curl -I](https://img.shields.io/badge/Command-curl%20--I-008080?style=for-the-badge)
 ![nslookup](https://img.shields.io/badge/Command-nslookup-9C27B0?style=for-the-badge)
 ![DNS Lookup](https://img.shields.io/badge/Command-DNS%20Lookup-4CAF50?style=for-the-badge)

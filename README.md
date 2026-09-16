@@ -25,7 +25,7 @@ Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing and Reconn
 
 Isolated virtual lab for practicing Cybersecurity, Ethical Hacking, Footprinting and Reconnaissance.
 
-# Project-Module 1: 
+# Project-Module 1
    Footprinting and Reconnaissance attacks with multiple Kali tools.
 
 ## Project Overview:

@@ -95,7 +95,7 @@ The nslookup (Name Server Lookup) command is a network administration tool used 
 * Open the Kali Linux terminal and run the following command:
 
   ```bash
-  curl -I https:/<domain>
+  curl -I https://<domain>
   ```
 
   The command curl -I (or curl --head) is used in cybersecurity footprinting and web debugging to fetch only the HTTP response headers from a target web server, without downloading the entire website page body (HTML, CSS, images).
@@ -107,7 +107,7 @@ The nslookup (Name Server Lookup) command is a network administration tool used 
 * Open the Kali Linux and run the following command:
 
 ```bash
-wakw00f <domain>
+wafw00f <domain>
 ```
 
 The command wafw00f (often pronounced/written as "WAF00F") is an open-source command-line tool used in cybersecurity footprinting and reconnaissance to identify and fingerprint Web Application Firewalls (WAFs) protecting a website.
@@ -120,11 +120,10 @@ The command wafw00f (often pronounced/written as "WAF00F") is an open-source com
 * Open the Kali Linux and run the following command:
 
   ```bash
-  dnsrecon <domain>
+  dnsrecon -d <domain>
   ```
   
 The command dnsrecon is a powerful Python-based DNS enumeration tool used during the reconnaissance and footprinting phase of a penetration test. It helps discover subdomains, zone transfers, DNS records, and hidden network infrastructure associated with a target domain.
-
 
 
 

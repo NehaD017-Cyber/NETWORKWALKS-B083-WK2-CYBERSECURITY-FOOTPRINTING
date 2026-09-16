@@ -127,7 +127,7 @@ The command wafw00f (often pronounced/written as "WAF00F") is an open-source com
   
 The command dnsrecon is a powerful Python-based DNS enumeration tool used during the reconnaissance and footprinting phase of a penetration test. It helps discover subdomains, zone transfers, DNS records, and hidden network infrastructure associated with a target domain.
 
---
+---
 
 ## 🧠 What I Learned:
 
@@ -178,7 +178,7 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 
  Step 6: List any 10 of them in the table.
 
---
+---
 
 ### Step 1:
 
@@ -197,22 +197,25 @@ Search cam on the Quick Search.
 Get Vulnerability Security Camera and IP Address.
 
 <img width="491" height="376" alt="Screenshot 2026-09-16 213214" src="https://github.com/user-attachments/assets/de20ef72-14d8-42b6-aec0-2066e3aeef31" />
+
 <img width="640" height="374" alt="Screenshot 2026-09-16 213154" src="https://github.com/user-attachments/assets/330385c2-b32f-4713-b15c-7fd0c976ef1d" />
+
 <img width="640" height="378" alt="Screenshot 2026-09-16 201809" src="https://github.com/user-attachments/assets/34c2bd8a-d097-4627-9997-7c759e820275" />
+
 <img width="640" height="371" alt="Screenshot 2026-09-16 201508" src="https://github.com/user-attachments/assets/f923ef35-217a-4347-953d-99f401ac405e" />
 
-| No. | Link | Relevant Dork | Username / Password | 
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **01** | http://217.155.202.203:8088/ | 	intitle:"ContaCam" "Snapshot Image" | - | 
-| **02** | http://109.164.108.255:8090/ | intitle:"Milesight Network Camera" intext:"Language" | - | 
-| **03** | http://109.233.191.130:8080/ | 	intitle:"webcamxp 5" intext: "live stream" | - | 
-| **04** | http://50.184.100.114:8000/ | 	intitle:"NetCamSC*" | - | 
-| **05** | http://109.164.203.165/ | 	"Camera Live Image" inurl:"guestimage.html" | - |
-| **06** | http://99.114.240.169:8080/ | 	intitle:"Webcam" inurl:WebCam.htm | - |
-| **07** | http://66.206.54.197/ | 	Display Cameras intitle:"Express6 Live Image" | - |
-| **08** | http://79.157.102.84:82/ | 	intitle:"INTELLINET" intitle:"IP Camera Homepage" | - |
-| **09** | http://208.107.246.94 | 	inurl:control/camerainfo | - | 
-| **10** | http://62.49.17.87:8000 | 	intitle:"NetCam Live Image" -.edu -.gov -johnny.ihackstuff.com | - |
+| No. | Link | Relevant Dork | Username / Password |
+| :--- | :--- | :--- | :--- |
+| **01** | `http://217.155.202.203:8088/` | `intitle:"ContaCam" "Snapshot Image"` | - |
+| **02** | `http://109.164.108.255:8090/` | `intitle:"Milesight Network Camera" intext:"Language"` | - |
+| **03** | `http://109.233.191.130:8080/` | `intitle:"webcamxp 5" intext: "live stream"` | - |
+| **04** | `http://50.184.100.114:8000/` | `intitle:"NetCamSC*"` | - |
+| **05** | `http://109.164.203.165/` | `"Camera Live Image" inurl:"guestimage.html"` | - |
+| **06** | `http://99.114.240.169:8080/` | `intitle:"Webcam" inurl:WebCam.htm` | - |
+| **07** | `http://66.206.54.197/` | `Display Cameras intitle:"Express6 Live Image"` | - |
+| **08** | `http://79.157.102.84:82/` | `intitle:"INTELLINET" intitle:"IP Camera Homepage"` | - |
+| **09** | `http://208.107.246.94` | `inurl:control/camerainfo` | - |
+| **10** | `http://62.49.17.87:8000` | `intitle:"NetCam Live Image" -.edu -.gov -johnny.ihackstuff.com` | - |
 
 ### Step 4: 
 

@@ -31,9 +31,27 @@ Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing and Reconn
 
 Isolated virtual lab for practicing Cybersecurity, Ethical Hacking, Footprinting and Reconnaissance.
 
+## 🔎 Project Overview:
+
+The first project was about doing environmental set-up of the virtual lab VirtualBox and Kali Linux. So, in this project we'll learn about Footprinting and Reconnaissance, that is the first step in the Cybersecurity. In this project we will use multiple tools of Kali, GHDB, Maltego, the Harvester, Zenmap and many others. 
+
 # Project-Module 1
    Footprinting and Reconnaissance attacks with multiple Kali tools.
 
-## Project Overview:
+---
 
-The first project was about doing environmental set-up of the virtual lab VirtualBox and Kali Linux. So, in this project we'll learn about Footprinting and Reconnaissance, that is the first step in the Cybersecurity. In this project we will use multiple tools of Kali, GHDB, Maltego, the Harvester, Zenmap and many others. 
+## 🔐 Objectives:
+
+Step 1: Run 'whois' to find the registration details of the domain you are using for the project.
+Step 2: Run 'whatweb' to fingerprint the web technologies.
+Step 3: Run 'nslookup' to resolve the domain to its IP address.
+Step 4: Run 'curl -I' to read the HTTP response headers.
+Step 5: Run 'wafw00f' to detect a Web Application Farewall.
+Step 6: Run 'dnsrecon' to enumerate all DNS records.
+
+### Step 1: 
+
+* Open the Kali Linux terminal and run the following command:
+  (whois <domain>)
+
+  

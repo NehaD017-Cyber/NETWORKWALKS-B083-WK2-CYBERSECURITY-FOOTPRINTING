@@ -23,6 +23,12 @@ Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing and Reconn
 ![DNS Lookup](https://img.shields.io/badge/Command-DNS%20Lookup-4CAF50?style=for-the-badge)
 ![IP Address](https://img.shields.io/badge/Command-IP%20Address-FF5722?style=for-the-badge)
 
+![Reconnaissance](https://img.shields.io/badge/Command-Reconnaissance-4CAF50?style=for-the-badge)
+![GHDB](https://img.shields.io/badge/Tool-GHDB-D32F2F?style=for-the-badge)
+![theHarvester](https://img.shields.io/badge/Tool-theHarvester-FF6F00?style=for-the-badge)
+![Zenmap](https://img.shields.io/badge/Tool-Zenmap-1976D2?style=for-the-badge)
+![Maltego](https://img.shields.io/badge/Tool-Maltego-7B1FA2?style=for-the-badge)
+
 Isolated virtual lab for practicing Cybersecurity, Ethical Hacking, Footprinting and Reconnaissance.
 
 # Project-Module 1
@@ -30,4 +36,4 @@ Isolated virtual lab for practicing Cybersecurity, Ethical Hacking, Footprinting
 
 ## Project Overview:
 
-
+The first project was about doing environmental set-up of the virtual lab VirtualBox and Kali Linux. So, in this project we'll learn about Footprinting and Reconnaissance, that is the first step in the Cybersecurity. In this project we will use multiple tools of Kali, GHDB, Maltego, the Harvester, Zenmap and many others. 

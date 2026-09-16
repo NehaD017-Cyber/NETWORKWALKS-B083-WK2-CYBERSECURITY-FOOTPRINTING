@@ -100,7 +100,7 @@ The nslookup (Name Server Lookup) command is a network administration tool used 
 
   The command curl -I (or curl --head) is used in cybersecurity footprinting and web debugging to fetch only the HTTP response headers from a target web server, without downloading the entire website page body (HTML, CSS, images).
 
-
+<img width="1910" height="940" alt="curl networkwalks com" src="https://github.com/user-attachments/assets/c27e2eb4-eae8-426a-b956-9ee1f99a1e53" />
 
 ### Step 5:
 

@@ -3,6 +3,8 @@ Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing
 
 # Footprinting in Cybersecurity 
 
+### After setting up the environmental virtual lab of VirtualBox and Kali Linux, we're going to learn and practice about Foot-printing in this project.
+
 <!-- Lab & Environment Badges -->
 ![Skill](https://img.shields.io/badge/Skill-Cybersecurity-D32F2F?style=for-the-badge)
 ![Skill](https://img.shields.io/badge/Skill-Ethical%20Hacking-F57C00?style=for-the-badge)
@@ -20,3 +22,10 @@ Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing
 ![nslookup](https://img.shields.io/badge/Command-nslookup-9C27B0?style=for-the-badge)
 ![DNS Lookup](https://img.shields.io/badge/Command-DNS%20Lookup-4CAF50?style=for-the-badge)
 ![IP Address](https://img.shields.io/badge/Command-IP%20Address-FF5722?style=for-the-badge)
+
+Isolated virtual lab for practicing Cybersecurity, Ethical Hacking and Footprinting.
+
+## PROJECT-MODULE1: 
+   Footprinting and Reconnaissance attacks with multiple Kali tools.
+
+   

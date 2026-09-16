@@ -90,7 +90,7 @@ nslookup <domain>
 
 The nslookup (Name Server Lookup) command is a network administration tool used for querying Domain Name System (DNS) servers to find IP addresses associated with a domain name, or vice versa.
 
-
+<img width="1910" height="940" alt="nslookup networkwalks com" src="https://github.com/user-attachments/assets/33419f36-e032-4e41-89d0-82d8ba518623" />
 
 ### Step 4:
 

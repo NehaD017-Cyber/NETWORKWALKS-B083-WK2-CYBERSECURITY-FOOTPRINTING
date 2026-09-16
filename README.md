@@ -222,7 +222,18 @@ Get Vulnerability Security Camera and IP Address.
 Get Mathematics ebooks pdfs.
 
 
-
+| No. | Link | Relevant Dork | Username / Password |
+| :--- | :--- | :--- | :--- |
+| **01** | `https://www.math.dartmouth.edu.carip.pdf` | `intitle:"index of /" mathematics pdf` | - |
+| **02** | `https://vps.uttarahumara.edu.mx` | `intitle:"index of" "parent directory" "math" filetype:pdf` | - |
+| **03** | `https://www.academia.edu` | `intitle:"index of /math/" "calculus" / "algebra"` | - |
+| **04** | `https://jaem.isikun.edu.tr.articles.vol.12no.2` | `intitle:"index of /" "mathematics" filetype:pdf` | - |
+| **05** | `https://nyjm.albany.edu` | `intitle:"index of" (calculus / algebra / topology / statistics) filetype:pdf` | - |
+| **06** | `https://public.csusm.edu.research` | `site:edu intitle:"index of" "mathematics" filetype:pdf` | - |
+| **07** | `https://jontalle.web.engr.illinois.edu > uploads` | `intitle:"index of /ebooks" "mathematics" filetype:pdf` | - |
+| **08** | `https://annalsmcs.org › amcs › article` | `(site:gov / site:org) intitle:"index of" "mathematics" filetype:pdf` | - |
+| **09** | `https://ftp.yz.yamagata-u.ac.jp > pub` | `"Apache" / "nginx" intitle:"index of /" "mathematics" "size"` | - |
+| **10** | `https://lordsuniversal.edu.in` | `inurl:/wp-content/uploads/ "mathematics" filetype:pdf` | - |
 
 
 

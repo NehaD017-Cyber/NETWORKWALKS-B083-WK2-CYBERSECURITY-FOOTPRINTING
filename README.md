@@ -519,7 +519,7 @@ In this phase of the lab, two primary cybersecurity procedures were executed:
 
 ---
 
-## 🕸️ Risk Analysis:
+## 🦂 Risk Analysis:
 
 | Module / Tool | Focus Area | Identified Risk & Operational Impact |
 | :--- | :--- | :--- |
@@ -551,4 +551,28 @@ Implementing the recommended countermeasures—including strict firewall access 
 
 ---
 
-# 
+## 🕸️ Encountered Problems and their Solutions:
+
+* Problem 1:
+
+Virtual Machine Network Communication Issue: 
+
+Initially, the Kali Linux VM experienced network isolation, preventing it from establishing proper communication across the virtual environment. This occurred because the default virtual adapter settings restricted traffic routing. To resolve this, I navigated to VirtualBox Settings > Network, removed the non-functional adapter mode, and selected **NAT** mode to enable outbound network connectivity.
+
+* Problem 2: 
+
+Zenmap Visibility & Host Discovery Issue:
+
+ I faced an issue where Zenmap and standard command prompt tools could not clearly display the IP address, MAC addresses, or determine whether target hosts were up or down—especially when connected to a mobile hotspot network. To resolve this, I switched to the Kali Linux terminal and executed the following commands to obtain full network visibility:
+
+  1. **Identify Network Interface & IP Address:**
+     ```bash
+     ip a
+     ```
+     *Used to inspect active interfaces and verify the assigned local IP address and subnet.*
+
+  2. **Discover Live Hosts & MAC Addresses:**
+     ```bash
+     sudo nmap -sn <ip address>
+     ```
+     *Executed a ping sweep with root privileges across the subnet to bypass discovery filters, accurately identify all live hosts, and retrieve their corresponding MAC addresses.*

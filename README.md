@@ -607,3 +607,27 @@ https://nmap.org/zenmap/
 
 ---
 
+## 👤 Author
+
+NEHA
+
+Cybersecurity Intern B083
+
+LinkedIn: https://www.linkedin.com/in/neha-d-846342-nd
+
+---
+
+## 🎲 Project Information:
+
+Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: Cybersecurity-Footprinting and Reconnaissance | Repository: GitHub
+
+---
+
+
+
+
+
+
+
+
+

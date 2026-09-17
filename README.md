@@ -382,6 +382,8 @@ $ theHarvester -d microsoft.com -l 50 -b all
 
 NETWORK SCANNING WITH ZENMAP
 
+* Nmap (Network Mapper) is an open-source command-line tool used for network discovery, port scanning, and vulnerability auditing. It sends custom IP packets to a target to determine what devices are active and what services they run.
+  
 ## 📌 Objectives:
 
 Step 1: Download & install Zenmap from official website on your Windows PC.
@@ -419,6 +421,54 @@ your local LAN subnet:
 
 Open Zenmap, input the local LAN subnet & select Ping Scan to find the list of
 live hosts in your subnet:
+
+<img width="640" height="373" alt="Screenshot 2026-09-17 125909" src="https://github.com/user-attachments/assets/4f2dae09-4481-4a4a-b3ba-69b10269b2e3" />
+
+* Click on Topology, turn on legend, read the legend in detail & click on Save
+Graphic:
+
+<img width="640" height="373" alt="Screenshot 2026-09-17 140447" src="https://github.com/user-attachments/assets/4791f82f-be74-4afa-a37c-ae2cb052ad95" />
+
+### Step 4:
+
+* Display & save the output topology in PDF Format on your desktop:
+
+<img width="640" height="371" alt="Screenshot 2026-09-17 141332" src="https://github.com/user-attachments/assets/6e08653a-a767-4f68-bf3d-564562875b36" />
+
+Select PDF from the list.
+
+The PDF file will be saved on your desktop.
+
+Save the topology PDF and include it in your final report.
+
+---
+
+## 🧠 What I learned:
+
+* Installation & Driver Setup:
+
+ How to install Zenmap on Windows along with Npcap (the raw packet capture driver needed for network scanning).
+
+* Subnet Discovery:
+
+   How to convert an IP address (192.168.1.x) and Subnet Mask (255.255.255.0) into CIDR notation (192.168.1.0/24) to target an entire local network.
+
+* Ping Scanning (-sn):
+
+  How to run a light sweep across a network segment to detect active (live) systems without performing full port scans.
+
+* Topology Visualization:
+
+   How to read interactive node graphs showing hops/connections between host devices and export visual topology maps for reporting.
+
+---
+
+
+
+
+
+
+
 
 
 

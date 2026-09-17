@@ -40,7 +40,7 @@ The first project was about doing environmental set-up of the virtual lab Virtua
 # Project-Module 1
    FOOTPRINTING AND RECONNAISSANCE WITH THE KALI TOOLS.
 
-## 🔐 Objectives:
+## 📌 Objectives:
 
 Step 1: Run 'whois' to find the registration details of the domain you are using for the project.
 
@@ -133,7 +133,7 @@ The command dnsrecon is a powerful Python-based DNS enumeration tool used during
 
 In this lab, I gained hands-on experience using Kali Linux tools in footprinting and reconnaissance to map domain assets, web technologies, and DNS infrastructure.
 
-* Command Breakdown:
+##### Command Breakdown:
   
 1. whois:
 
@@ -163,7 +163,7 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 
 # Project-Module 2
   FOOTPRINTING AND RECONNAISSANCE WITH THE HELP OF GOOGLE HACKING DATABASE.
- ## 🔏 Objectives:
+ ## 📌 Objectives:
 
  Step 1: Open the Exploit Database, go to the GHDB (Google Hacking Database).
  
@@ -194,12 +194,6 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 ### Step 3: 
 
 * Get Vulnerability Security Camera and IP Address.
-
-<img width="491" height="376" alt="Screenshot 2026-09-16 213214" src="https://github.com/user-attachments/assets/de20ef72-14d8-42b6-aec0-2066e3aeef31" />
-
-<img width="640" height="374" alt="Screenshot 2026-09-16 213154" src="https://github.com/user-attachments/assets/330385c2-b32f-4713-b15c-7fd0c976ef1d" />
-
-<img width="640" height="378" alt="Screenshot 2026-09-16 201809" src="https://github.com/user-attachments/assets/34c2bd8a-d097-4627-9997-7c759e820275" />
 
 <img width="640" height="371" alt="Screenshot 2026-09-16 201508" src="https://github.com/user-attachments/assets/f923ef35-217a-4347-953d-99f401ac405e" />
 
@@ -328,7 +322,7 @@ The email addresses related to networkwalks.com have been harvested now.
 FOOTPRINTING & RECONNAISSANCE
 WITH theHARVESTER
 
-## 🔭 Objectives:
+## 📌 Objectives:
 
 Step 1: Find email IDs & sub-domains related to a target organization <domain>
 using the theHarvester tool in Kali Linux with Baidu. Set the limit of number of

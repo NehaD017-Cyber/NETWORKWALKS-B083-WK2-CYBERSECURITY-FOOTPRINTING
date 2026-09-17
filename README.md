@@ -114,7 +114,7 @@ wafw00f <domain>
 
 The command wafw00f (often pronounced/written as "WAF00F") is an open-source command-line tool used in cybersecurity footprinting and reconnaissance to identify and fingerprint Web Application Firewalls (WAFs) protecting a website.
 
-<img width="322" height="153" alt="Screenshot 2026-09-17 151430" src="https://github.com/user-attachments/assets/2354498e-1e04-44dd-b1a8-7fc46e872456" />
+<img width="1600" height="787" alt="wafw00f" src="https://github.com/user-attachments/assets/1c947c5a-bb88-410a-931e-ae4c98b1e65d" />
 
 ### Step 6: 
 

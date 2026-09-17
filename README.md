@@ -215,16 +215,16 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 
 | No. | Link | Relevant Dork | Username / Password |
 | :--- | :--- | :--- | :--- |
-| **01** | `https://www.math.dartmouth.edu.carip.pdf` | `intitle:"index of /" mathematics pdf` | - |
-| **02** | `https://vps.uttarahumara.edu.mx` | `intitle:"index of" "parent directory" "math" filetype:pdf` | - |
-| **03** | `https://www.academia.edu` | `intitle:"index of /math/" "calculus" / "algebra"` | - |
-| **04** | `https://jaem.isikun.edu.tr.articles.vol.12no.2` | `intitle:"index of /" "mathematics" filetype:pdf` | - |
-| **05** | `https://nyjm.albany.edu` | `intitle:"index of" (calculus / algebra / topology / statistics) filetype:pdf` | - |
-| **06** | `https://public.csusm.edu.research` | `site:edu intitle:"index of" "mathematics" filetype:pdf` | - |
-| **07** | `https://jontalle.web.engr.illinois.edu > uploads` | `intitle:"index of /ebooks" "mathematics" filetype:pdf` | - |
-| **08** | `https://annalsmcs.org › amcs › article` | `(site:gov / site:org) intitle:"index of" "mathematics" filetype:pdf` | - |
-| **09** | `https://ftp.yz.yamagata-u.ac.jp > pub` | `"Apache" / "nginx" intitle:"index of /" "mathematics" "size"` | - |
-| **10** | `https://lordsuniversal.edu.in` | `inurl:/wp-content/uploads/ "mathematics" filetype:pdf` | - |
+| **01** | `https://sajaipuriacollege.ac.in/pdf/pdf/MATHEMATICS/` | `intitle:"index of /" mathematics pdf` | - |
+| **02** | `https://www.math.ksu.edu/~dbski/writings/further.pdf` | `site:.gov OR site:.edu "mathematics textbook" filetype:pdf` | - |
+| **03** | `https://www.jsoftware.com/books/pdf/` | `intitle:"index of /" "epub" OR "pdf" "calculus" OR "algebra"` | - |
+| **04** | `https://jaem.isikun.edu.tr/web/images/articles/vol.12.no.2/23.pdf` | `intitle:"index of /" "mathematics" filetype:pdf` | - |
+| **05** | `https://arxiv.org/pdf/2608.28796` | `intitle:"index of" (calculus / algebra / topology / statistics) filetype:pdf` | - |
+| **06** | `https://nyjm.albany.edu/j/1995/1-9.pdf` | `site:edu intitle:"index of" "mathematics" filetype:pdf` | - |
+| **07** | `https://math.colgate.edu/~integers/w58/w58.pdf` | `site:.edu intitle:"index of" "math" + "books" filetype:pdf` | - |
+| **08** | `https://www.cs.ucdavis.edu/~rogaway/classes/20/fall21/mit-book.pdf` | `site:.edu inurl:courses "calculus" filetype:pdf` | - |
+| **09** | `https://ftp.yz.yamagata-u.ac.jp/pub/linux/gentoo/sci-mathematics/mathematica/` | `"Apache" / "nginx" intitle:"index of /" "mathematics" "size"` | - |
+| **10** | `https://antinifizicari.wordpress.com/wp-content/uploads/2019/08/basic-mathematics-for-college-students-pdfdrive.com-.pdf` | `inurl:/wp-content/uploads/ "mathematics" filetype:pdf` | - |
 
 ---
 

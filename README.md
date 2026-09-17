@@ -78,7 +78,7 @@ whatweb <domain>
 
 The whatweb command is a web scanner used in footprinting to identify the technologies running on a website (such as CMS platform, web server type, IP address, embedded scripts, and HTTP status codes).
 
-
+<img width="320" height="152" alt="Screenshot 2026-09-17 151456" src="https://github.com/user-attachments/assets/f534883d-6d2c-40cf-ae1c-423ff31e040c" />
 
 ### Step 3: 
 
@@ -114,8 +114,7 @@ wafw00f <domain>
 
 The command wafw00f (often pronounced/written as "WAF00F") is an open-source command-line tool used in cybersecurity footprinting and reconnaissance to identify and fingerprint Web Application Firewalls (WAFs) protecting a website.
 
-
-
+<img width="322" height="153" alt="Screenshot 2026-09-17 151430" src="https://github.com/user-attachments/assets/2354498e-1e04-44dd-b1a8-7fc46e872456" />
 
 ### Step 6: 
 
@@ -422,12 +421,12 @@ your local LAN subnet:
 Open Zenmap, input the local LAN subnet & select Ping Scan to find the list of
 live hosts in your subnet:
 
-<img width="640" height="373" alt="Screenshot 2026-09-17 125909" src="https://github.com/user-attachments/assets/4f2dae09-4481-4a4a-b3ba-69b10269b2e3" />
+<img width="640" height="376" alt="Screenshot 2026-09-17 144728" src="https://github.com/user-attachments/assets/879c4de0-c9dc-44de-8298-e24755f0a39f" />
 
 * Click on Topology, turn on legend, read the legend in detail & click on Save
 Graphic:
 
-<img width="640" height="373" alt="Screenshot 2026-09-17 140447" src="https://github.com/user-attachments/assets/4791f82f-be74-4afa-a37c-ae2cb052ad95" />
+<img width="640" height="377" alt="Screenshot 2026-09-17 144858" src="https://github.com/user-attachments/assets/a7492135-43c2-49bc-a6ff-6c0197cc8b77" />
 
 ### Step 4:
 
@@ -440,6 +439,8 @@ Select PDF from the list.
 The PDF file will be saved on your desktop.
 
 Save the topology PDF and include it in your final report.
+
+<img width="581" height="357" alt="Screenshot 2026-09-17 150213" src="https://github.com/user-attachments/assets/9b4f3039-be89-46f1-a960-9128ac8164ce" />
 
 ---
 

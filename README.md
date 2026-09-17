@@ -1,4 +1,4 @@
-# NETWORKWALKS-B083-WK2-CYBERSECURITY-FOOTPRINTING-Reconnaissance
+# NETWORKWALKS-B083-WK2-CYBERSECURITY-FOOTPRINTING-RECONNAISSANCE
 Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing and Reconnaissance.
 
 # Footprinting and Reconnaissance in Cybersecurity 
@@ -219,8 +219,9 @@ Get Vulnerability Security Camera and IP Address.
 
 ### Step 4: 
 
-Get Mathematics ebooks pdfs.
+Get downloadable Mathematics eBooks pdfs from relevant dorks. 
 
+<img width="640" height="375" alt="Screenshot 2026-09-16 193257" src="https://github.com/user-attachments/assets/7971cde4-ea27-4455-8c2a-36cbc04ec367" />
 
 | No. | Link | Relevant Dork | Username / Password |
 | :--- | :--- | :--- | :--- |
@@ -235,6 +236,92 @@ Get Mathematics ebooks pdfs.
 | **09** | `https://ftp.yz.yamagata-u.ac.jp > pub` | `"Apache" / "nginx" intitle:"index of /" "mathematics" "size"` | - |
 | **10** | `https://lordsuniversal.edu.in` | `inurl:/wp-content/uploads/ "mathematics" filetype:pdf` | - |
 
+---
+
+## 🗝️ Key Concepts
+Passive Reconnaissance: Because you are searching through Google's index rather than connecting directly to a website, the target organization receives no direct traffic from you and cannot detect the search in their server logs.
+
+## 🚀 Dual-Use Tool:
+
+Attackers use dorks to locate exposed login portals, open directories, database backups, configuration files, and unsecured devices (like security cameras).
+
+Defenders use the same search terms on their own domains to find exposed files and remove or secure them before they are exploited.
+
+---
+
+# Project-Module 3
+
+Footprinting with Maltego.
+
+## 📌 Objectives:
+
+Step 1: Download & install Maltego on a Windows Computer.
+
+Step 2: Find all email addresses related to the target organization
+domain networkwalks.com (with due permission)
+
+---
+
+### Step 1:
+
+Open the website https://maltego.com and download Maltego:
+
+<img width="640" height="374" alt="Screenshot 2026-09-17 103237" src="https://github.com/user-attachments/assets/88f9bd78-b27d-4af5-a91d-c9189772d694" />
+
+<img width="640" height="367" alt="Screenshot 2026-09-17 103349" src="https://github.com/user-attachments/assets/5d7e0acd-3663-4d14-b281-52b7a321b55c" />
+
+Run Maltego setup & install it:
+
+<img width="632" height="248" alt="Screenshot 2026-09-17 103601" src="https://github.com/user-attachments/assets/992b5bdd-38af-4284-81ac-bfea3f79f530" />
+
+<img width="452" height="291" alt="Screenshot 2026-09-17 103737" src="https://github.com/user-attachments/assets/2ee32a24-8fe5-46ca-af1b-c318883983f5" />
+
+<img width="640" height="374" alt="Screenshot 2026-09-17 103703" src="https://github.com/user-attachments/assets/0b45eb62-08ce-4297-93b8-3248fa2c0764" />
+
+<img width="640" height="374" alt="Screenshot 2026-09-17 103921" src="https://github.com/user-attachments/assets/c5d27b0a-1b65-43b6-9255-e32c867babea" />
+<img width="640" height="377" alt="Screenshot 2026-09-17 103814" src="https://github.com/user-attachments/assets/1de721e7-fa34-4622-8ea0-54a28347e73b" />
+
+Run Maltego after installation & complete the configuration:
+
+<img width="640" height="373" alt="Screenshot 2026-09-17 104547" src="https://github.com/user-attachments/assets/839fea8e-a6a1-4dba-8abe-76f4ceb66eb4" />
+
+<img width="571" height="338" alt="Screenshot 2026-09-17 104648" src="https://github.com/user-attachments/assets/d56e75db-2883-4512-877b-e1ed7b4f5eac" />
+
+Fill the registration form and Create your Maltego ID:
+
+<img width="632" height="360" alt="Screenshot 2026-09-17 104715" src="https://github.com/user-attachments/assets/9cda192c-a90a-433a-9dae-7fb40fa06888" />
+
+Complete the Authentication and start Maltego:
+
+<img width="572" height="338" alt="Screenshot 2026-09-17 105900" src="https://github.com/user-attachments/assets/dd5485a4-c3ae-4d38-ade0-44be46e3f41c" />
+
+<img width="640" height="374" alt="Screenshot 2026-09-17 110114" src="https://github.com/user-attachments/assets/3ad58deb-4890-4a71-b0bc-f99747120f96" />
+
+Maltego is now ready to run transforms.
+
+### Step 2:
+
+Search for “Domain” & drag to main area:
+
+<img width="640" height="373" alt="Screenshot 2026-09-17 110445" src="https://github.com/user-attachments/assets/7a88e3d6-b725-4d5e-963f-f5dcb9ce3340" />
+
+Double-click on the entity & change name to networkwalks.com.
+
+Right-click & filter for email related transforms & run it:
+
+<img width="640" height="371" alt="Screenshot 2026-09-17 113030" src="https://github.com/user-attachments/assets/6f1cef60-8f09-40af-b057-0fba1bb95105" />
+
+The email addresses related to networkwalks.com have been harvested now.
+
+To website mentioning domains:
+
+<img width="639" height="380" alt="Screenshot 2026-09-17 113109" src="https://github.com/user-attachments/assets/e08051ce-ca9f-4581-989d-5dfbb5b7b801" />
+
+## ⁉️ Why Maltego?
+
+Maltego is a graphical link-analysis and Open-Source Intelligence (OSINT) tool used to gather information and visually map out relationships between data points on the internet.
+
+Instead of reading raw logs or text-based search results, Maltego connects pieces of information—like domain names, IP addresses, email addresses, social media profiles, and company networks—into an interactive visual graph.
 
 
 
@@ -247,31 +334,3 @@ Get Mathematics ebooks pdfs.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  

@@ -1,4 +1,4 @@
-# NETWORKWALKS-B083-WK2-CYBERSECURITY-FOOTPRINTING-RECONNAISSANCE
+no# NETWORKWALKS-B083-WK2-CYBERSECURITY-FOOTPRINTING-RECONNAISSANCE
 Hands-on Cybersecurity lab using Kali Linux to practice Foot-printing and Reconnaissance.
 
 # Footprinting and Reconnaissance in Cybersecurity 
@@ -469,19 +469,93 @@ Save the topology PDF and include it in your final report.
 PENETRATION TESTING REPORT
 
 
+## Final Report:
 
 
+| Pentester Name (Cybersecurity Professional) | NEHA |
+| :--- | :--- |
+| **Program/Batch** | B083-Networkwalks |
+| **Date** | 17 September 2026 |
+| **Modules completed** | W2-PM1 (Multiple Kali Tools)<br>W2-PM5 (Zenmap Scanning) |
+| **Client/Target** | 1. Networkwalks (secured written permission already)<br>2. My own local LAN Network |
+| **Permission secured from client?** | Yes |
+| **Phases covered** | **Phase 1:** Reconnaissance & Footprinting<br>**Phase 2:** Scanning & Network Discovery<br>**Phase 3-5:** In Progress |
 
 
+---
+
+## Disclaimer and Liability:
 
 
+* The activities documented in this repository were performed strictly on systems and devices where explicit, written permission was secured, or on hardware owned directly by the author.
 
+* All content, commands, and materials presented here are provided solely for educational and research purposes.
+Lawful Use Only: Do not use any information or code from this project to engage in unauthorized access or illegal activities.
 
+* No Liability:
 
+ The authors, instructors, and Networkwalks assume no liability for any actions taken or misuse of the information provided herein.
 
+* Individual Responsibility: 
 
+You are entirely responsible for your own actions. Misuse of cyber security tools and techniques can lead to severe criminal charges and legal penalties.
 
+---
 
+## Tools used and Methodologies:
 
+| Tool Name | Tool Type / Category | Primary Purpose & Usage |
+| :--- | :--- | :--- |
+| **Whois** | Information Gathering / OSINT | Queries registrar databases to retrieve domain registration, ownership details, IP ranges, and technical contacts. |
+| **WhatWeb** | Web Reconnaissance | Scans websites to identify server technologies, CMS platforms, embedded scripts, and HTTP headers. |
+| **NSlookup** | DNS Diagnostics | Interrogates DNS servers to resolve domain names to IP addresses and query specific DNS records (A, MX, NS). |
+| **curl -I** | Web Inspection | Fetches HTTP/HTTPS response headers from a web server without downloading the page body to inspect server banners and security settings. |
+| **DNSrecon** | DNS Enumeration | Automates DNS reconnaissance, executing zone transfers, cache snooping, and subdomain brute-forcing. |
+| **Zenmap** | Network Discovery (GUI) | Graphical frontend for Nmap used to scan open ports, detect operating systems, and visualize network topology graphs. |
+| **Maltego** | Graphical OSINT / Data Mining | Interactive link-analysis tool used to map and visualize relationships between domains, IP addresses, networks, and infrastructure. |
+| **GHDB (Google Hacking Database)** | OSINT Resource | A compiled database of advanced search queries (Google Dorks) used to discover sensitive information and exposed web assets. |
+| **theHarvester** | OSINT / E-mail Harvesting | Gathers subdomains, hostnames, employee names, open ports, and email addresses from public search engines and PGP key servers. |
 
+---
 
+## Activities Performed:
+
+In this phase of the lab, two primary cybersecurity procedures were executed:
+
+* **Footprinting & Reconnaissance:** Active and passive intelligence gathering was conducted using Kali Linux tools. Registrations and administrative details were collected using `whois`, while domain records were queried using `nslookup`. DNS infrastructure was enumerated with `dnsrecon`. Web target analysis was performed using `whatweb` to identify underlying frameworks, `curl -I` to inspect raw HTTP response headers, and `wafw00f` to detect active Web Application Firewalls.
+* **Network Scanning & Discovery:** Subnet host discovery was performed using `Zenmap` across the `192.168.56.0/24` network segment. The scan successfully identified three live hosts on the network: the virtual gateway (`192.168.56.1`), the target system (`192.168.56.100`), and the local Kali Linux attacker machine (`192.168.56.101`).
+*
+
+---
+
+## Risk Analysis:
+
+| Module / Tool | Focus Area | Identified Risk & Operational Impact |
+| :--- | :--- | :--- |
+| **Module 1: Kali Linux Reconnaissance Tools** *(Whois, WhatWeb, NSlookup, cURL, Wafw00f, DNSrecon)* | Active & Passive Footprinting | **Low to Medium Risk:** Exposes administrative contacts, DNS records, web server banners, and backend framework versions. Threat actors can use this intelligence to craft targeted exploits or bypass Web Application Firewalls (WAF). |
+| **Module 2: Google Hacking Database (GHDB)** | OSINT & Search Engine Dorking | **Medium Risk:** Uncovers publicly indexed sensitive files, exposed admin login portals, backup archives, and configuration flaws without directly interacting with or alerting the target server. |
+| **Module 3: Maltego** | Link Analysis & Entity Mapping | **Medium Risk:** Maps complex relationships across domain infrastructures, IP blocks, MX servers, and personnel data. Allows adversaries to visually identify single points of failure or optimal entry points across the network topology. |
+| **Module 4: theHarvester** | OSINT / Email & Subdomain Harvesting | **Medium to High Risk:** Gathers internal hostnames, active subdomains, and corporate email addresses from public databases. This data fuels highly convincing spear-phishing campaigns and password-spraying attacks. |
+| **Module 5: Zenmap / Nmap Scanner** | Active Network & Port Scanning | **High Risk:** Direct host discovery on target `192.168.56.100` reveals open ports, running services, and OS signatures. Unrestricted visibility gives attackers the exact blueprint needed to launch targeted exploitation attempts. |
+
+---
+
+## Recommendations & Countermeasures:
+
+| Module / Vector | Recommended Mitigation Strategy | Implementation Action |
+| :--- | :--- | :--- |
+| **Footprinting & OSINT** *(Whois, theHarvester, GHDB)* | **Information Disclosure Minimization** | Enable registrar privacy for domain registry records; remove exposed documents, backup files, and administrative portals from public search engine indexes via `robots.txt` and search console removal tools. |
+| **Infrastructure Mapping** *(Maltego, DNSrecon)* | **DNS Security Hardening** | Restrict DNS zone transfers (AXFR) to trusted secondary nameservers only; disable public directory listings and sanitize external-facing DNS records. |
+| **Network & Port Scanning** *(Zenmap, Nmap)* | **Network Segmentation & Filtering** | Implement strict host-based and network firewall rules to block ICMP sweeps and unauthorized port probing; employ Intrusion Detection/Prevention Systems (IDS/IPS) to detect and rate-limit active network scans. |
+| **Web Server Footprinting** *(WhatWeb, cURL, Wafw00f)* | **Banner Grabbing Defense & WAF Deployment** | Suppress or customize HTTP response headers and server tokens (e.g., `Server`, `X-Powered-By`); deploy a Web Application Firewall (WAF) with aggressive filtering rules. |
+
+---
+## Final Conclusion:
+
+The execution of this network discovery and reconnaissance lab demonstrated the critical role that passive footprinting, open-source intelligence (OSINT), and active network scanning play in evaluating an organization's overall security posture. 
+
+By leveraging tools such as **Whois**, **WhatWeb**, **NSlookup**, **theHarvester**, **GHDB**, and **Maltego**, an adversary can compile extensive intelligence regarding domain ownership, network infrastructure, web application frameworks, and personnel metadata—all without directly alerting target systems. Furthermore, active scanning via **Zenmap** on the target subnet (`192.168.56.0/24`) successfully mapped active host interfaces (`192.168.56.100`), illustrating how quickly open communication channels and network topologies can be identified.
+
+Implementing the recommended countermeasures—including strict firewall access controls, server banner suppression, public data minimization, and hardened DNS configurations—significantly reduces the target attack surface and effectively mitigates the risk of unauthorized network exploitation.
+
+---

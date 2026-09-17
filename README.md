@@ -384,24 +384,41 @@ NETWORK SCANNING WITH ZENMAP
 
 ## 📌 Objectives:
 
-Step 1: 
+Step 1: Download & install Zenmap from official website on your Windows PC.
 
+Step 2: Find your local IP address & your LAN subnet.
 
+Step 3: Find the list of live hosts/PC’s in your IP subnet.
 
+Step 4: Display & save the output topology in PDF Format on your desktop.
 
+---
 
+### Step 1:
 
+* Download & install Zenmap from official website on your Windows PC:
 
+``` bash
+https://nmap.org/download.html
+```
 
+<img width="640" height="374" alt="Screenshot 2026-09-17 125618" src="https://github.com/user-attachments/assets/b0f5742f-5dea-4dc4-8bb4-100cae0ef2e0" />
 
+### Step 2:
 
+* Find your local IP address & your LAN subnet:
 
+Open CMD & run ipconfig command to find your PC’s local IP address &
+your local LAN subnet:
 
+<img width="640" height="376" alt="Screenshot 2026-09-17 125722" src="https://github.com/user-attachments/assets/9b83d0cc-1437-481d-a653-1035ec9936bd" />
 
+### Step 3:
 
+* Find the list of live hosts/PC’s in your IP subnet:
 
-
-
+Open Zenmap, input the local LAN subnet & select Ping Scan to find the list of
+live hosts in your subnet:
 
 
 

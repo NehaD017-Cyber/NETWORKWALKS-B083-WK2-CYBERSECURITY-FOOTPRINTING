@@ -576,3 +576,34 @@ Zenmap Visibility & Host Discovery Issue:
      sudo nmap -sn <ip address>
      ```
      *Executed a ping sweep with root privileges across the subnet to bypass discovery filters, accurately identify all live hosts, and retrieve their corresponding MAC addresses.*
+
+---
+
+## 🛠️ Resources: 
+
+1. Kali Linux 
+
+```bash
+https://kali.org/get-kali
+```
+
+2. GHDB
+
+```bash
+https://www.exploit-db.com
+```
+
+3. Maltego
+
+```bash
+https://www.maltego.com/downloads/
+```
+
+4. Zenmap
+
+```bash
+https://nmap.org/zenmap/
+```
+
+---
+

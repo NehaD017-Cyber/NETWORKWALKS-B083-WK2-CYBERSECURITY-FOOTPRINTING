@@ -38,7 +38,7 @@ The first project was about doing environmental set-up of the virtual lab Virtua
 ---
 
 # Project-Module 1
-   Footprinting and Reconnaissance attacks with multiple Kali tools.
+   FOOTPRINTING AND RECONNAISSANCE WITH THE KALI TOOLS.
 
 ## 🔐 Objectives:
 
@@ -162,8 +162,7 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 ---
 
 # Project-Module 2
-  Footprinting and Reconnaissance with the help of Google Hacking DataBase.
-
+  FOOTPRINTING AND RECONNAISSANCE WITH THE HELP OF GOOGLE HACKING DATABASE.
  ## 🔏 Objectives:
 
  Step 1: Open the Exploit Database, go to the GHDB (Google Hacking Database).
@@ -251,8 +250,7 @@ Defenders use the same search terms on their own domains to find exposed files a
 
 # Project-Module 3
 
-Footprinting with Maltego.
-
+FOOTPRINTING WITH MALTEGO.
 ## 📌 Objectives:
 
 Step 1: Download & install Maltego on a Windows Computer.
@@ -289,9 +287,9 @@ Run Maltego after installation & complete the configuration:
 
 Fill the registration form and Create your Maltego ID:
 
-<img width="632" height="360" alt="Screenshot 2026-09-17 104715" src="https://github.com/user-attachments/assets/9cda192c-a90a-433a-9dae-7fb40fa06888" />
+<img width="632" height="360" alt="Screenshot 2026-09-17 104715" src="https://github.com/user-attachments/assets/9cda192c-a90a-433a-9dae-7fb40fa06888" /> 
 
-Complete the Authentication and start Maltego:
+Complete the Authentication and start Maltego: 
 
 <img width="572" height="338" alt="Screenshot 2026-09-17 105900" src="https://github.com/user-attachments/assets/dd5485a4-c3ae-4d38-ade0-44be46e3f41c" />
 
@@ -303,9 +301,9 @@ Maltego is now ready to run transforms.
 
 Search for “Domain” & drag to main area:
 
-<img width="640" height="373" alt="Screenshot 2026-09-17 110445" src="https://github.com/user-attachments/assets/7a88e3d6-b725-4d5e-963f-f5dcb9ce3340" />
-
 Double-click on the entity & change name to networkwalks.com.
+
+<img width="640" height="373" alt="Screenshot 2026-09-17 110445" src="https://github.com/user-attachments/assets/7a88e3d6-b725-4d5e-963f-f5dcb9ce3340" />
 
 Right-click & filter for email related transforms & run it:
 
@@ -322,6 +320,87 @@ To website mentioning domains:
 Maltego is a graphical link-analysis and Open-Source Intelligence (OSINT) tool used to gather information and visually map out relationships between data points on the internet.
 
 Instead of reading raw logs or text-based search results, Maltego connects pieces of information—like domain names, IP addresses, email addresses, social media profiles, and company networks—into an interactive visual graph.
+
+---
+
+# Project-Module 4
+
+FOOTPRINTING & RECONNAISSANCE
+WITH theHARVESTER
+
+## 🔭 Objectives:
+
+Step 1: Find email IDs & sub-domains related to a target organization <domain>
+using the theHarvester tool in Kali Linux with Baidu. Set the limit of number of
+results to 1000.
+
+Step 2: Find email IDs & sub-domains related to a target organization <domain>
+using the theHarvester tool in Kali Linux with all sources. Set the limit of number of
+results to 50.
+
+---
+
+### Step 1:
+
+Open theHarvester tool in Kali Linux from the applications.
+
+Read the usage instructions & guidelines.
+
+<img width="1910" height="940" alt="theHarvester" src="https://github.com/user-attachments/assets/e238d070-76c2-49b6-8306-fb4497c1207b" />
+
+* Usage: theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-p] [-s] [--screenshot SCREENSHOT] [-e DNS_SERVER] [-t] [-r [DNS_RESOLVE]] [-n] [-c] [-f FILENAME] [-w WORDLIST] [-a] [-q] [-b SOURCE]
+
+theHarvester is used to gather open source intelligence (OSINT) on a company or domain.
+
+In the terminal windows, type below command to start theHarvester & search for the required detail using Baidu:
+
+```bash
+$ theHarvester -d microsoft.com -l 1000 -b baidu
+```
+
+### Step 2:
+
+In the terminal windows, type below command to start theHarvester & search for the required detail using all:
+
+``` bash
+$ theHarvester -d microsoft.com -l 50 -b all
+```
+
+<img width="1910" height="940" alt="the harvestre microsoft com" src="https://github.com/user-attachments/assets/3136024e-674a-40fe-a544-ff3ed0334a67" />
+
+---
+
+## ⁉️ What It Collects:
+
+* Email Addresses: Finds leaked or published employee emails associated with a domain.
+
+* Subdomains & Hostnames: Discovers subdomains (e.g., admin.example.com, vpn.example.com).
+
+* IP Addresses: Maps gathered subdomains to their corresponding public IP addresses.
+
+* Employee Names: Scrapes names and titles from platforms like LinkedIn for social engineering risk analysis.
+
+* Open Ports & Virtual Hosts: Identifies active services exposed to the public internet.
+
+---
+
+# Project-Module 5
+
+NETWORK SCANNING WITH ZENMAP
+
+## 📌 Objectives:
+
+Step 1: 
+
+
+
+
+
+
+
+
+
+
 
 
 

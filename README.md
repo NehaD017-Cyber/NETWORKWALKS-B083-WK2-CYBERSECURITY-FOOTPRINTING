@@ -128,11 +128,9 @@ The command dnsrecon is a powerful Python-based DNS enumeration tool used during
 
 ---
 
-## 🧠 What I Learned:
+## ♟️Command Breakdown:
 
 In this lab, I gained hands-on experience using Kali Linux tools in footprinting and reconnaissance to map domain assets, web technologies, and DNS infrastructure.
-
-##### Command Breakdown:
   
 1. whois:
 
@@ -233,7 +231,7 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 ## 🗝️ Key Concepts
 Passive Reconnaissance: Because you are searching through Google's index rather than connecting directly to a website, the target organization receives no direct traffic from you and cannot detect the search in their server logs.
 
-## 🚀 Dual-Use Tool:
+## 🪢 Dual-Use Tool:
 
 * Attackers use dorks to locate exposed login portals, open directories, database backups, configuration files, and unsecured devices (like security cameras).
 
@@ -308,7 +306,7 @@ The email addresses related to networkwalks.com have been harvested now.
 
 <img width="639" height="380" alt="Screenshot 2026-09-17 113109" src="https://github.com/user-attachments/assets/e08051ce-ca9f-4581-989d-5dfbb5b7b801" />
 
-## ⁉️ Why Maltego?
+## ❔ Why Maltego?
 
 * Maltego is a graphical link-analysis and Open-Source Intelligence (OSINT) tool used to gather information and visually map out relationships between data points on the internet.
 
@@ -464,13 +462,9 @@ Save the topology PDF and include it in your final report.
 
 ---
 
-# Project-Report 
+# Project-Report-Final
 
 PENETRATION TESTING REPORT
-
-
-## Final Report:
-
 
 | Pentester Name (Cybersecurity Professional) | NEHA |
 | :--- | :--- |
@@ -481,11 +475,9 @@ PENETRATION TESTING REPORT
 | **Permission secured from client?** | Yes |
 | **Phases covered** | **Phase 1:** Reconnaissance & Footprinting<br>**Phase 2:** Scanning & Network Discovery<br>**Phase 3-5:** In Progress |
 
-
 ---
 
-## Disclaimer and Liability:
-
+## 💣 Disclaimer and Liability:
 
 * The activities documented in this repository were performed strictly on systems and devices where explicit, written permission was secured, or on hardware owned directly by the author.
 
@@ -502,7 +494,7 @@ You are entirely responsible for your own actions. Misuse of cyber security tool
 
 ---
 
-## Tools used and Methodologies:
+## 🔭 Tools used and Methodologies:
 
 | Tool Name | Tool Type / Category | Primary Purpose & Usage |
 | :--- | :--- | :--- |
@@ -518,17 +510,16 @@ You are entirely responsible for your own actions. Misuse of cyber security tool
 
 ---
 
-## Activities Performed:
+## 💻 Activities Performed:
 
 In this phase of the lab, two primary cybersecurity procedures were executed:
 
 * **Footprinting & Reconnaissance:** Active and passive intelligence gathering was conducted using Kali Linux tools. Registrations and administrative details were collected using `whois`, while domain records were queried using `nslookup`. DNS infrastructure was enumerated with `dnsrecon`. Web target analysis was performed using `whatweb` to identify underlying frameworks, `curl -I` to inspect raw HTTP response headers, and `wafw00f` to detect active Web Application Firewalls.
 * **Network Scanning & Discovery:** Subnet host discovery was performed using `Zenmap` across the `192.168.56.0/24` network segment. The scan successfully identified three live hosts on the network: the virtual gateway (`192.168.56.1`), the target system (`192.168.56.100`), and the local Kali Linux attacker machine (`192.168.56.101`).
-*
 
 ---
 
-## Risk Analysis:
+## 🕸️ Risk Analysis:
 
 | Module / Tool | Focus Area | Identified Risk & Operational Impact |
 | :--- | :--- | :--- |
@@ -540,7 +531,7 @@ In this phase of the lab, two primary cybersecurity procedures were executed:
 
 ---
 
-## Recommendations & Countermeasures:
+## 🎓 Recommendations & Countermeasures:
 
 | Module / Vector | Recommended Mitigation Strategy | Implementation Action |
 | :--- | :--- | :--- |
@@ -550,7 +541,7 @@ In this phase of the lab, two primary cybersecurity procedures were executed:
 | **Web Server Footprinting** *(WhatWeb, cURL, Wafw00f)* | **Banner Grabbing Defense & WAF Deployment** | Suppress or customize HTTP response headers and server tokens (e.g., `Server`, `X-Powered-By`); deploy a Web Application Firewall (WAF) with aggressive filtering rules. |
 
 ---
-## Final Conclusion:
+## 📍 Final Conclusion:
 
 The execution of this network discovery and reconnaissance lab demonstrated the critical role that passive footprinting, open-source intelligence (OSINT), and active network scanning play in evaluating an organization's overall security posture. 
 
@@ -559,3 +550,5 @@ By leveraging tools such as **Whois**, **WhatWeb**, **NSlookup**, **theHarvester
 Implementing the recommended countermeasures—including strict firewall access controls, server banner suppression, public data minimization, and hardened DNS configurations—significantly reduces the target attack surface and effectively mitigates the risk of unauthorized network exploitation.
 
 ---
+
+# 

@@ -181,19 +181,19 @@ Enumerated DNS records (A, MX, NS, TXT), checked for AXFR zone transfer vulnerab
 
 ### Step 1:
 
-   Open Exploit Database and go to GHDB.
+* Open Exploit Database and go to GHDB.
 
 <img width="640" height="376" alt="Screenshot 2026-09-16 184420" src="https://github.com/user-attachments/assets/45121ad0-1203-47c1-94dd-3131c140ef2b" />
 
 ### Step 2:
 
-Search cam on the Quick Search.
+* Search cam on the Quick Search.
 
 <img width="639" height="375" alt="Screenshot 2026-09-16 203206" src="https://github.com/user-attachments/assets/bdb9dd46-21d3-41bb-aed4-d6e37f3d71d6" />
 
 ### Step 3: 
 
-Get Vulnerability Security Camera and IP Address.
+* Get Vulnerability Security Camera and IP Address.
 
 <img width="491" height="376" alt="Screenshot 2026-09-16 213214" src="https://github.com/user-attachments/assets/de20ef72-14d8-42b6-aec0-2066e3aeef31" />
 
@@ -218,7 +218,7 @@ Get Vulnerability Security Camera and IP Address.
 
 ### Step 4: 
 
-Get downloadable Mathematics eBooks pdfs from relevant dorks. 
+* Get downloadable Mathematics eBooks pdfs from relevant dorks. 
 
 <img width="640" height="375" alt="Screenshot 2026-09-16 193257" src="https://github.com/user-attachments/assets/7971cde4-ea27-4455-8c2a-36cbc04ec367" />
 
@@ -242,9 +242,9 @@ Passive Reconnaissance: Because you are searching through Google's index rather 
 
 ## 🚀 Dual-Use Tool:
 
-Attackers use dorks to locate exposed login portals, open directories, database backups, configuration files, and unsecured devices (like security cameras).
+* Attackers use dorks to locate exposed login portals, open directories, database backups, configuration files, and unsecured devices (like security cameras).
 
-Defenders use the same search terms on their own domains to find exposed files and remove or secure them before they are exploited.
+* Defenders use the same search terms on their own domains to find exposed files and remove or secure them before they are exploited.
 
 ---
 
@@ -262,13 +262,13 @@ domain networkwalks.com (with due permission)
 
 ### Step 1:
 
-Open the website https://maltego.com and download Maltego:
+* Open the website https://maltego.com and download Maltego:
 
 <img width="640" height="374" alt="Screenshot 2026-09-17 103237" src="https://github.com/user-attachments/assets/88f9bd78-b27d-4af5-a91d-c9189772d694" />
 
 <img width="640" height="367" alt="Screenshot 2026-09-17 103349" src="https://github.com/user-attachments/assets/5d7e0acd-3663-4d14-b281-52b7a321b55c" />
 
-Run Maltego setup & install it:
+* Run Maltego setup & install it:
 
 <img width="632" height="248" alt="Screenshot 2026-09-17 103601" src="https://github.com/user-attachments/assets/992b5bdd-38af-4284-81ac-bfea3f79f530" />
 
@@ -279,47 +279,47 @@ Run Maltego setup & install it:
 <img width="640" height="374" alt="Screenshot 2026-09-17 103921" src="https://github.com/user-attachments/assets/c5d27b0a-1b65-43b6-9255-e32c867babea" />
 <img width="640" height="377" alt="Screenshot 2026-09-17 103814" src="https://github.com/user-attachments/assets/1de721e7-fa34-4622-8ea0-54a28347e73b" />
 
-Run Maltego after installation & complete the configuration:
+* Run Maltego after installation & complete the configuration:
 
 <img width="640" height="373" alt="Screenshot 2026-09-17 104547" src="https://github.com/user-attachments/assets/839fea8e-a6a1-4dba-8abe-76f4ceb66eb4" />
 
 <img width="571" height="338" alt="Screenshot 2026-09-17 104648" src="https://github.com/user-attachments/assets/d56e75db-2883-4512-877b-e1ed7b4f5eac" />
 
-Fill the registration form and Create your Maltego ID:
+* Fill the registration form and Create your Maltego ID:
 
 <img width="632" height="360" alt="Screenshot 2026-09-17 104715" src="https://github.com/user-attachments/assets/9cda192c-a90a-433a-9dae-7fb40fa06888" /> 
 
-Complete the Authentication and start Maltego: 
+* Complete the Authentication and start Maltego: 
 
 <img width="572" height="338" alt="Screenshot 2026-09-17 105900" src="https://github.com/user-attachments/assets/dd5485a4-c3ae-4d38-ade0-44be46e3f41c" />
 
 <img width="640" height="374" alt="Screenshot 2026-09-17 110114" src="https://github.com/user-attachments/assets/3ad58deb-4890-4a71-b0bc-f99747120f96" />
 
-Maltego is now ready to run transforms.
+* Maltego is now ready to run transforms.
 
 ### Step 2:
 
-Search for “Domain” & drag to main area:
+* Search for “Domain” & drag to main area:
 
 Double-click on the entity & change name to networkwalks.com.
 
 <img width="640" height="373" alt="Screenshot 2026-09-17 110445" src="https://github.com/user-attachments/assets/7a88e3d6-b725-4d5e-963f-f5dcb9ce3340" />
 
-Right-click & filter for email related transforms & run it:
+* Right-click & filter for email related transforms & run it:
 
 <img width="640" height="371" alt="Screenshot 2026-09-17 113030" src="https://github.com/user-attachments/assets/6f1cef60-8f09-40af-b057-0fba1bb95105" />
 
 The email addresses related to networkwalks.com have been harvested now.
 
-To website mentioning domains:
+* To website mentioning domains:
 
 <img width="639" height="380" alt="Screenshot 2026-09-17 113109" src="https://github.com/user-attachments/assets/e08051ce-ca9f-4581-989d-5dfbb5b7b801" />
 
 ## ⁉️ Why Maltego?
 
-Maltego is a graphical link-analysis and Open-Source Intelligence (OSINT) tool used to gather information and visually map out relationships between data points on the internet.
+* Maltego is a graphical link-analysis and Open-Source Intelligence (OSINT) tool used to gather information and visually map out relationships between data points on the internet.
 
-Instead of reading raw logs or text-based search results, Maltego connects pieces of information—like domain names, IP addresses, email addresses, social media profiles, and company networks—into an interactive visual graph.
+* Instead of reading raw logs or text-based search results, Maltego connects pieces of information—like domain names, IP addresses, email addresses, social media profiles, and company networks—into an interactive visual graph.
 
 ---
 
@@ -342,7 +342,7 @@ results to 50.
 
 ### Step 1:
 
-Open theHarvester tool in Kali Linux from the applications.
+* Open theHarvester tool in Kali Linux from the applications.
 
 Read the usage instructions & guidelines.
 
@@ -352,7 +352,7 @@ Read the usage instructions & guidelines.
 
 theHarvester is used to gather open source intelligence (OSINT) on a company or domain.
 
-In the terminal windows, type below command to start theHarvester & search for the required detail using Baidu:
+* In the terminal windows, type below command to start theHarvester & search for the required detail using Baidu:
 
 ```bash
 $ theHarvester -d microsoft.com -l 1000 -b baidu
@@ -360,7 +360,7 @@ $ theHarvester -d microsoft.com -l 1000 -b baidu
 
 ### Step 2:
 
-In the terminal windows, type below command to start theHarvester & search for the required detail using all:
+* In the terminal windows, type below command to start theHarvester & search for the required detail using all:
 
 ``` bash
 $ theHarvester -d microsoft.com -l 50 -b all
